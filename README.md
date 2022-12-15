@@ -11,7 +11,7 @@ Os usuários devem ser capazes de:
 
 ### Screenshots
 ![](./design/desktop-design.jpeg "Modelo Desktop")
-![](./design/desktop-design.jpeg "Modelo Mobile")
+![](./design/mobile-design.jpeg "Modelo Mobile")
 
 ### Links
 - [*URL da solução*](https://jperluxo.github.io/desafio-pagina-notificacoes-resolvido)
