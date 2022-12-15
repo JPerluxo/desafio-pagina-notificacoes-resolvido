@@ -14,7 +14,7 @@ Os usuários devem ser capazes de:
 ![Modelo Mobile](./design/mobile-design.jpeg "Modelo Mobile")
 
 ### Links
-- [*URL da solução*](https://jperluxo.github.io/desafio-pagina-notificacoes-resolvido){:target="_blank"}
+- <a href="https://jperluxo.github.io/desafio-pagina-notificacoes-resolvido" target="_blank">*URL da solução*</a>
 
 ### Tecnologias utilizadas
 - HTML5 Semântico
