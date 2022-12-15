@@ -10,8 +10,8 @@ Os usuários devem ser capazes de:
 - Ver claramente a diferença dos estados e/ou eventos de “hover” e “focus” para todos os elementos interativos na página.
 
 ### Screenshots
-![](./design/desktop-design.jpeg "Modelo Desktop")
-![](./design/mobile-design.jpeg "Modelo Mobile")
+<img align="center" alt="Modelo Desktop" src="./design/desktop-design.jpeg" style="max-width:100%;">
+<img align="center" alt="Modelo Mobile" src="./design/mobile-design.jpeg" style="max-width:100%;">
 
 ### Links
 - [*URL da solução*](https://jperluxo.github.io/desafio-pagina-notificacoes-resolvido)
