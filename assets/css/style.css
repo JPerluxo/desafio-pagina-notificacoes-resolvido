@@ -1,0 +1,171 @@
+:root {
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsla(211, 68%, 94%, 0.849);
+    --Light-grayish-blue-2: hsl(205, 33%, 90%);
+    --Grayish-blue: hsl(219, 14%, 63%);
+    --Dark-grayish-blue: hsl(219, 12%, 42%);
+    --Background-color: hsl(228, 71%, 99%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Background-color);
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 100%;
+}
+
+#title {
+    font-size: 20px;
+}
+
+.mark {
+    font-size: 16px;
+}
+
+strong {
+    font-weight: 700;
+    color: var(--Dark-grayish-blue);
+}
+
+b {
+    color: var(--Grayish-blue);
+}
+
+p {
+    color: var(--Grayish-blue);
+}
+
+img {
+    width: 80%;
+}
+
+strong:hover,
+b:hover {
+    color: var(--Blue);
+}
+
+.light {
+    font-size: 16px;
+}
+
+.read {
+    font-size: 16px;
+}
+
+i {
+    color: var(--Red);
+    font-size: 10px;
+}
+
+.container {
+    margin: 2.5% 20% 0 20%;
+    padding: 0 5%;
+    background-color: var(--White);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px 5px rgb(0 0 0 / 0.08);
+}
+
+.notify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+.notify h3 span {
+    background-color: var(--Blue);
+    color: var(--White);
+    padding: 0 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+.notify p {
+    color: var(--Grayish-blue);
+    font-weight: 500;
+}
+
+.notify p:hover {
+    color: var(--Blue);
+    cursor: pointer;
+}
+
+.notify h3 {
+    font-weight: 800;
+}
+
+.show {
+    background-color: var(--Light-grayish-blue-1);
+}
+
+.not {
+    padding: 4%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.not .comment p {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.not:hover {
+    background-color: var(--Very-light-grayish-blue);
+    cursor: pointer;
+}
+
+.comment {
+    width: 100%
+}
+
+.f {
+    border: 1px solid var(--Very-light-grayish-blue);
+    padding: 4% 4%;
+    border-radius: 3px;
+    margin-bottom: 2%;
+    width: 85%;
+    margin-left: 14%;
+    text-align: left;
+}
+
+.f:hover {
+    background-color: var(--Light-grayish-blue-2);
+    cursor: pointer;
+}
+
+.marked {
+    background-color: var(--White);
+
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5%;
+}
+
+.attribution_item,
+.attribution_item a {
+    margin: 1vh 0;
+    text-decoration: none;
+    color: var(--Grayish-blue);
+    font-size: 12px;
+}
+
+@media screen and (max-width:600px) {
+    .f {
+        width: 70%;
+        margin-left: 30%;
+    }
+}
